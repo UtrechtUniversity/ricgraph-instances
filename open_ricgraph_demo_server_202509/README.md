@@ -19,14 +19,14 @@ principles.
 ## More information
 
 * Website Ricgraph: [www.ricgraph.eu](https://www.ricgraph.eu).
-* Try the Open Ricgraph demo server for yourself:
+* Try the Open Ricgraph demo server:
   [https://explorer.ricgraph.eu](https://explorer.ricgraph.eu).
-* For more about the Pilot project Open Ricgraph demo server,
+* For more information about the Pilot project Open Ricgraph demo server,
   such as what we are doing, and how you can participate, go to the webpage
   [Open Ricgraph demo 
   server](https://www.ricgraph.eu/pilot-project-open-ricgraph-demo-server.html).
 * This directory (where you are now) contains
   files that are specific
-  to the Open Ricgraph demo server.
+  to the pilot project Open Ricgraph demo server.
 * All other files can be found in the 
   [Ricgraph GitHub repository](https://github.com/UtrechtUniversity/ricgraph).
