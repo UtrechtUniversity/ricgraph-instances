@@ -1,0 +1,58 @@
+<!-- The text in this file is shown on the home page
+of Ricgraph Explorer. You may extend or modify it as suits your use case.
+It may contain HTML formatting. No check is done on any text in this file.
+-->
+
+<h1>Pilot project Open Ricgraph demo server</h1>
+This is the <em>Open Ricgraph demo server</em>. 
+It is a pilot project that has the aim to demonstrate how 
+<a href="https://www.ricgraph.eu" 
+   target="_blank">Ricgraph</a>
+can provide
+insights into research relations and collaborations, and how it can optimize
+the quality of research information.
+
+The approach we take is to collect research information from participating
+organizations and from multiple source systems, and to combine it in a single
+graph. By organizing research information in a network of connected items and
+relations, users can infer new relations, relations that are not present in any
+of the source systems. 
+To learn more, including how to participate, please read the
+<a href="https://www.ricgraph.eu/pilot-project-open-ricgraph-demo-server.html" 
+   target="_blank">Pilot project Open Ricgraph demo server</a>
+webpage, or contact
+<a href="https://www.ricgraph.eu/contact.html" 
+   target="_blank">Rik D.T. Janssen</a> 
+from Utrecht University.
+
+<p/>
+The Open Ricgraph demo server
+contains research information harvested for
+<a href="https://www.tudelft.nl/en" 
+   target="_blank">Delft University of Technology</a>.
+It is harvested from the
+Research Information System
+<a href="https://www.elsevier.com/solutions/pure" 
+   target="_blank">Pure</a>
+(<a href="https://research.tudelft.nl/en" 
+    target="_blank">access Delft University of Technology Pure</a>), 
+the meta data aggregator
+<a href="https://openalex.org" 
+   target="_blank">OpenAlex</a>, and
+the research software repository
+<a href="https://research-software-directory.org" 
+   target="_blank">Research Software Directory</a>. 
+Research information from Pure and OpenAlex is from years 2022 - 2025,
+from the Research Software Directory from all years.
+All information in the Open Ricgraph demo server is publicly
+available in those source systems. 
+However, if you find yourself in Ricgraph, and you don't want
+to, you can request removal via email address 
+<a href="mailto:privacy-tud@tudelft.nl" 
+   target="_blank">privacy-tud@tudelft.nl</a>.
+For more details, please read the 
+<a href="https://www.tudelft.nl/en/privacy-statement" 
+   target="_blank">Privacy statement of the Delft University of Technology</a>.
+
+<h1>Start exploring</h1>
+
