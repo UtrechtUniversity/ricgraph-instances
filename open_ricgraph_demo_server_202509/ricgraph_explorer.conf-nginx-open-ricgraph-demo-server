@@ -29,35 +29,33 @@
 # ########################################################################
 #
 # This file is an example Nginx configuration file, containing a
-# VirtualHost on port 80 (standard http port) for both Ricgraph Explorer, 
+# VirtualHost on port 80 (standard http port) for both Ricgraph Explorer,
 # a web based tool to access Ricgraph, and the Ricgraph REST API.
 #
-# Nginx proxies to a local host and port (see below). On that host/port 
+# Nginx proxies to a local host and port (see below). On that host/port
 # runs the WSGI Gunicorn server using Uvicorn for ASGI applications.
-# That is done, since a ASGI application server is good practise for 
+# That is done, since a ASGI application server is good practise for
 # a REST API.
 #
 # You will need to change WEBSERVER_NAME below in the name of the
 # webserver that is serving Ricgraph (e.g. ricgraph.example.com).
 #
-# WARNING: 
-# Note that this file, as it is now, serves Ricgraph Explorer and the
-# Ricgraph REST API on a http connection, not secured (no https), 
-# and without authentication.
-# At least you should change this file to use https.
+# WARNING:
+# There are many possible settings.
 # You have to make modifications yourself, since there are too many
-# site specific settings to give example code.
+# site specific settings to give example code for all.
 # Examples of these settings are your external IP address, hostname,
 # web server, domain name, SSL certificate provider, authentication source, etc.
 #
 # READ THIS:
-# To prevent accidental exposure of data in Ricgraph to the outside world, 
+# To prevent accidental exposure of data in Ricgraph to the outside world,
 # the line starting with 'proxy_pass' has been commented.
 # Please read the warning above and take appropriate
 # measures before uncommenting it and starting Nginx.
 #
 # Original version Rik D.T. September 2024, May 2025, based on
 # ricgraph_explorer.conf-apache.
+# Modifications for explorer.ricgraph.eu, September 2025.
 #
 # ########################################################################
 
