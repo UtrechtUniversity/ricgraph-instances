@@ -1,0 +1,69 @@
+<!-- The text in this file is shown on the home page
+of Ricgraph Explorer. You may extend or modify it as suits your use case.
+It may contain HTML formatting. No check is done on any text in this file.
+-->
+
+<br/>
+
+<h1 id="more_info_section">More information about the pilot project Open Ricgraph demo server</h1>
+To learn more about the Pilot project Open Ricgraph demo server,
+including how to participate, please read the
+<a href="https://www.ricgraph.eu/pilot-project-open-ricgraph-demo-server.html"
+   target="_blank">Pilot project Open Ricgraph demo server</a>
+webpage, or contact
+<a href="https://www.ricgraph.eu/contact.html"
+   target="_blank">Rik D.T. Janssen</a>
+from Utrecht University.
+
+<h2>Organizations and sources harvested</h2>
+This Open Ricgraph demo server
+contains research information harvested for
+<a href="https://www.amsterdamumc.org/en/research.htm"
+   target="_blank">Amsterdam University Medical Centers (AUMC)</a> and for
+<a href="https://www.tudelft.nl/en"
+   target="_blank">Delft University of Technology (DUT)</a>.
+It is harvested from the
+Research Information System
+<a href="https://www.elsevier.com/solutions/pure"
+   target="_blank">Pure</a>
+(<a href="https://pure.amsterdamumc.nl"
+    target="_blank">access AUMC Pure</a>,
+<a href="https://research.tudelft.nl/en"
+   target="_blank">access DUT Pure</a>),
+the meta data aggregator
+<a href="https://openalex.org"
+   target="_blank">OpenAlex</a>, and
+the research software repository
+<a href="https://research-software-directory.org"
+   target="_blank">Research Software Directory</a>.
+Research information from Pure and OpenAlex is from years 2022 - 2026,
+from the Research Software Directory from all years.
+
+<h2>What to do if you would like to have your information removed from Ricgraph</h2>
+All information in the Open Ricgraph demo server is publicly
+available in those source systems.
+However, if you find your information listed in Ricgraph
+and want it removed, you can request deletion by email.
+Please specify exactly what you'd like to have removed.
+Use the email address corresponding to the value in the
+<em>_source</em> column for the items you want removed:
+<ul>
+    <li>
+        If the value ends with <em>-AUMC</em>, email
+        <a href="mailto:privacy@amsterdamumc.nl"
+           target="_blank">privacy@amsterdamumc.nl</a>.
+        For more details, please read the
+        <a href="https://www.amsterdamumc.org/en/general-privacy-statement-of-amsterdam-umc.htm"
+           target="_blank">General privacy statement of Amsterdam UMC</a>.
+    <li>
+        If the value ends with <em>-DUT</em>, email
+        <a href="mailto:privacy-tud@tudelft.nl"
+           target="_blank">privacy-tud@tudelft.nl</a>.
+        For more details, please read the
+        <a href="https://www.tudelft.nl/en/privacy-statement"
+           target="_blank">Privacy statement of the Delft University of Technology</a>.
+    <li>
+        If you see both endings (<em>-AUMC</em> and <em>-DUT</em>),
+        you may contact either email address.
+    </li>
+</ul>
