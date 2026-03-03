@@ -29,18 +29,18 @@
 # ########################################################################
 #
 # This file is an example Nginx configuration file, containing a
-# VirtualHost on port 80 & 443 (http & https port) for both Ricgraph Explorer,
+# VirtualHost on port 80 & 443 (http & https port) for both Ricgraph Explorer, 
 # a web based tool to access Ricgraph, and the Ricgraph REST API.
 #
-# Nginx proxies to a local host and port (see below). On that host/port
+# Nginx proxies to a local host and port (see below). On that host/port 
 # runs the WSGI Gunicorn server using Uvicorn for ASGI applications.
-# That is done, since a ASGI application server is good practise for
+# That is done, since a ASGI application server is good practise for 
 # a REST API.
 #
 # You will need to change WEBSERVER_NAME below in the name of the
 # webserver that is serving Ricgraph (e.g. ricgraph.example.com).
 #
-# WARNING:
+# WARNING: 
 # There are many possible settings.
 # You have to make modifications yourself, since there are too many
 # site specific settings to give example code for all.
@@ -48,7 +48,7 @@
 # web server, domain name, SSL certificate provider, authentication source, etc.
 #
 # READ THIS:
-# To prevent accidental exposure of data in Ricgraph to the outside world,
+# To prevent accidental exposure of data in Ricgraph to the outside world, 
 # the line starting with 'proxy_pass' has been commented.
 # Please read the warning above and take appropriate
 # measures before uncommenting it and starting Nginx.
@@ -104,6 +104,17 @@ server {
         alias /opt/ricgraph_venv/ricgraph_explorer/static/;
     }
 
+    # Security headers.
+    server_tokens off;
+    add_header X-Frame-Options "DENY" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    add_header Permissions-Policy "geolocation=(), microphone=(), camera=()" always;
+    add_header Cross-Origin-Opener-Policy "same-origin" always;
+    add_header Cross-Origin-Resource-Policy "same-origin" always;
+    add_header Content-Security-Policy "default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none';" always;
+    # End of Security headers.
+
     # The hostname (127.0.0.1) and port (3030) below correspond to the
     # hostname and port where Gunicorn is running. These parameters
     # are set in file 'ricgraph_explorer_gunicorn.service'.
@@ -121,6 +132,17 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
+	
+	    # Time out settings.
+	    # These large time outs are necessary since "exploring collaborations"
+	    # in Ricgraph Explorer may take quite long. This is coupled
+	    # to '--timeout 270' in ricgraph_explorer_gunicorn.service
+	    # (270 should be slighly less than the 300 below).
+	    proxy_connect_timeout 300s;
+    	proxy_send_timeout    300s;
+    	proxy_read_timeout    300s;
+    	send_timeout          300s;
+	    # End of Time out settings.
     }
 
     location = /robots.txt {
