@@ -19,25 +19,32 @@ from Utrecht University.
 This Open Ricgraph demo server
 contains research information harvested for
 <a href="https://www.amsterdamumc.org/en/research.htm"
-   target="_blank">Amsterdam University Medical Centers (AUMC)</a> and for
+   target="_blank">Amsterdam University Medical Centers (AUMC)</a>, for
 <a href="https://www.tudelft.nl/en"
-   target="_blank">Delft University of Technology (DUT)</a>.
+   target="_blank">Delft University of Technology (DUT)</a>, and for
+<a href="https://www.vu.nl/en"
+   target="_blank">Vrije Universiteit Amsterdam (VUA)</a>.
 It is harvested from the
 Research Information System
 <a href="https://www.elsevier.com/solutions/pure"
    target="_blank">Pure</a>
 (<a href="https://pure.amsterdamumc.nl"
     target="_blank">access AUMC Pure</a>,
-<a href="https://research.tudelft.nl/en"
-   target="_blank">access DUT Pure</a>),
+<a href="https://research.tudelft.nl"
+   target="_blank">access DUT Pure</a>,
+<a href="https://research.vu.nl"
+   target="_blank">access VUA Pure</a>),
 the meta data aggregator
 <a href="https://openalex.org"
-   target="_blank">OpenAlex</a>, and
+   target="_blank">OpenAlex</a>,
 the research software repository
 <a href="https://research-software-directory.org"
-   target="_blank">Research Software Directory</a>.
+   target="_blank">Research Software Directory</a>,
+and the data repository
+<a href="https://www.uu.nl/en/research/yoda"
+   target="_blank">Yoda</a>.
 Research information from Pure and OpenAlex is from years 2022 - 2026,
-from the Research Software Directory from all years.
+from the Research Software Directory and Yoda from all years.
 
 <h2>What to do if you would like to have your information removed from Ricgraph</h2>
 All information in the Open Ricgraph demo server is publicly
@@ -55,6 +62,7 @@ Use the email address corresponding to the value in the
         For more details, please read the
         <a href="https://www.amsterdamumc.org/en/general-privacy-statement-of-amsterdam-umc.htm"
            target="_blank">General privacy statement of Amsterdam UMC</a>.
+    </li>
     <li>
         If the value ends with <em>-DUT</em>, email
         <a href="mailto:privacy-tud@tudelft.nl"
@@ -62,8 +70,18 @@ Use the email address corresponding to the value in the
         For more details, please read the
         <a href="https://www.tudelft.nl/en/privacy-statement"
            target="_blank">Privacy statement of the Delft University of Technology</a>.
+    </li>
     <li>
-        If you see both endings (<em>-AUMC</em> and <em>-DUT</em>),
-        you may contact either email address.
+        If the value ends with <em>-VUA</em>, email
+        <a href="mailto:pure.support.ub@vu.nl"
+           target="_blank">pure.support.ub@vu.nl</a>.
+        For more details, please read the
+        <a href="https://vu.nl/en/about-vu/more-about/privacy-statement-vrije-universiteit-amsterdam"
+           target="_blank">Privacy statement of the Vrije Universiteit Amsterdam</a>.
+    </li>
+    <li>
+        If you see more than one ending (<em>-AUMC</em>, <em>-DUT</em>,
+        and/or <em>-VUA</em>),
+        you may contact any one of the corresponding email addresses.
     </li>
 </ul>

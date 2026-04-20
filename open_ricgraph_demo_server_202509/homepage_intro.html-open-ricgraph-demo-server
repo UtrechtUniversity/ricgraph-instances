@@ -16,9 +16,11 @@ graph.
 This Open Ricgraph demo server
 contains research information harvested for
 <a href="https://www.amsterdamumc.org/en/research.htm"
-   target="_blank">Amsterdam University Medical Centers (AUMC)</a> and for
+   target="_blank">Amsterdam University Medical Centers (AUMC)</a>, for
 <a href="https://www.tudelft.nl/en"
-   target="_blank">Delft University of Technology (DUT)</a>.
+   target="_blank">Delft University of Technology (DUT)</a>, and for
+<a href="https://www.vu.nl/en"
+   target="_blank">Vrije Universiteit Amsterdam (VUA)</a>.
 All information in the Open Ricgraph demo server is publicly
 available in the source systems harvested.
 <a href="#more_info_section">Read more</a>.
