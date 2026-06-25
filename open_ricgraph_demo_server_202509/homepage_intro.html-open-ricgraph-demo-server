@@ -13,16 +13,27 @@ the quality of research information.
 The approach we take is to collect research information from participating
 organizations and from multiple source systems, and to combine it in a single
 graph.
-This Open Ricgraph demo server
-contains research information harvested for
-<a href="https://www.amsterdamumc.org/en/research.htm"
-   target="_blank">Amsterdam University Medical Centers (AUMC)</a>, for
-<a href="https://www.tudelft.nl/en"
-   target="_blank">Delft University of Technology (DUT)</a>, and for
-<a href="https://www.vu.nl/en"
-   target="_blank">Vrije Universiteit Amsterdam (VUA)</a>.
 All information in the Open Ricgraph demo server is publicly
 available in the source systems harvested.
 <a href="#more_info_section">Read more</a>.
 <!-- This anchor links to file homepage_outro.html -->
 
+This Open Ricgraph demo server
+contains research information from the following organizations:
+<div class="w3-row-padding">
+  <div class="w3-third w3-margin-top" style="text-align:center;">
+      <img src="static/images/aumc_logo.png" alt="AUMC logo" style="height:30px;">
+      <p/><a href="https://www.amsterdamumc.org/en/research.htm"
+           target="_blank">Amsterdam University Medical Centers (AUMC)</a>
+  </div>
+  <div class="w3-third w3-margin-top" style="text-align:center;">
+      <img src="static/images/dut_logo.png" alt="DUT logo" style="height:30px;">
+      <p/><a href="https://www.tudelft.nl/en"
+           target="_blank">Delft University of Technology (DUT)</a>
+  </div>
+  <div class="w3-third w3-margin-top" style="text-align:center;">
+      <img src="static/images/vua_logo.png" alt="VUA logo" style="height:30px;">
+      <p/><a href="https://www.vu.nl/en"
+           target="_blank">Vrije Universiteit Amsterdam (VUA)</a>
+  </div>
+</div>
