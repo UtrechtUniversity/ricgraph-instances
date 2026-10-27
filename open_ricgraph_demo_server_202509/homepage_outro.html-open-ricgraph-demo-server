@@ -20,8 +20,12 @@ This Open Ricgraph demo server
 contains research information harvested for
 <a href="https://www.amsterdamumc.org/en/research.htm"
    target="_blank">Amsterdam University Medical Centers (AUMC)</a>, for
+<a href="https://www.amsterdamuas.com"
+   target="_blank">Amsterdam University of Applied Sciences (AUAS)</a>, for
 <a href="https://www.tudelft.nl/en"
-   target="_blank">Delft University of Technology (DUT)</a>, and for
+   target="_blank">Delft University of Technology (DUT)</a>, for
+<a href="https://www.uva.nl/en"
+   target="_blank">University of Amsterdam (UA)</a>, and for
 <a href="https://www.vu.nl/en"
    target="_blank">Vrije Universiteit Amsterdam (VUA)</a>.
 It is harvested from the
@@ -30,6 +34,8 @@ Research Information System
    target="_blank">Pure</a>
 (<a href="https://pure.amsterdamumc.nl"
     target="_blank">access AUMC Pure</a>,
+<a href="https://pure.hva.nl"
+   target="_blank">access AUAS Pure</a>,
 <a href="https://research.tudelft.nl"
    target="_blank">access DUT Pure</a>,
 <a href="https://research.vu.nl"
@@ -64,12 +70,28 @@ Use the email address corresponding to the value in the
            target="_blank">General privacy statement of Amsterdam UMC</a>.
     </li>
     <li>
+        If the value ends with <em>-AUAS</em>, email
+        <a href="mailto:avg@hva.nl"
+           target="_blank">avg@hva.nl</a>.
+        For more details, please read the
+        <a href="https://www.amsterdamuas.com/privacy-statement"
+           target="_blank">Privacy statement of the Amsterdam University of Applied Sciences</a>.
+    </li>
+    <li>
         If the value ends with <em>-DUT</em>, email
         <a href="mailto:privacy-tud@tudelft.nl"
            target="_blank">privacy-tud@tudelft.nl</a>.
         For more details, please read the
         <a href="https://www.tudelft.nl/en/privacy-statement"
            target="_blank">Privacy statement of the Delft University of Technology</a>.
+    </li>
+    <li>
+        If the value ends with <em>-UA</em>, email
+        <a href="mailto:jz-privacy-bb@uva.nl"
+           target="_blank">jz-privacy-bb@uva.nl</a>.
+        For more details, please read the
+        <a href="https://www.uva.nl/en/home/disclaimers/privacy.html"
+           target="_blank">Privacy statement of the University of Amsterdam</a>.
     </li>
     <li>
         If the value ends with <em>-VUA</em>, email
@@ -80,8 +102,7 @@ Use the email address corresponding to the value in the
            target="_blank">Privacy statement of the Vrije Universiteit Amsterdam</a>.
     </li>
     <li>
-        If you see more than one ending (<em>-AUMC</em>, <em>-DUT</em>,
-        and/or <em>-VUA</em>),
+        If you see more than one ending,
         you may contact any one of the corresponding email addresses.
     </li>
 </ul>

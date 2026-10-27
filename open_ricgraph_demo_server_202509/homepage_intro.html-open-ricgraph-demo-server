@@ -27,9 +27,21 @@ contains research information from the following organizations:
            target="_blank">Amsterdam University Medical Centers (AUMC)</a>
   </div>
   <div class="w3-third w3-margin-top" style="text-align:center;">
+      <img src="static/images/auas_logo.png" alt="AUAS logo" style="height:30px;">
+      <p/><a href="https://www.amsterdamuas.com"
+             target="_blank">Amsterdam University of Applied Sciences (AUAS)</a>
+  </div>
+  <div class="w3-third w3-margin-top" style="text-align:center;">
       <img src="static/images/dut_logo.png" alt="DUT logo" style="height:30px;">
       <p/><a href="https://www.tudelft.nl/en"
            target="_blank">Delft University of Technology (DUT)</a>
+  </div>
+</div>
+<div class="w3-row-padding">
+  <div class="w3-third w3-margin-top" style="text-align:center;">
+      <img src="static/images/ua_logo.png" alt="UA logo" style="height:30px;">
+      <p/><a href="https://www.uva.nl/en"
+             target="_blank">University of Amsterdam (UA)</a>
   </div>
   <div class="w3-third w3-margin-top" style="text-align:center;">
       <img src="static/images/vua_logo.png" alt="VUA logo" style="height:30px;">
