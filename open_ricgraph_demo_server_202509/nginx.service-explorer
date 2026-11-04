@@ -13,6 +13,13 @@
 # File modified by Rik D.T. Janssen at Nov. 4, 2026, so it restarts
 # on failure.It gives up after 43 starts within 1 hour.
 # It retries every 20 seconds after a failure.
+#
+# Remove /etc/systemd/system/multi-user.target.wants/nginx.service.
+# Put this file in /etc/systemd/system/nginx.service.
+# Make /etc/systemd/system/multi-user.target.wants/nginx.service
+# point to it, then
+# sudo systemctl daemon-reload
+# sudo systemctl restart nginx
 # ####################
 [Unit]
 Description=A high performance web server and a reverse proxy server
